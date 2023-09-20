@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="obsh">
+            <form action="">
+                <form>
+                    <select value="none">
+                        <option value="none">Ничего</option>
+                        <option value="text">Text</option>
+                        <option value="table">Table</option>
+                    </select>
+                </form>
+                <form action="">
+                    <div class="texttable">
+                        <div class="text-info">
+                            <input type="text" id="nameInput" name="nameInput"
+                                placeholder="Добавьте текст в таблицу"><br>
+                            <input type="button" value="Отправить" onclick="transferData()">
+                            <p>Вы добавили текст:</p>
+
+                        </div>
+                        <div class="obshtable">
+                            <div class="table-info">
+                                <input type="text" id="nameInput1" name="nameInput1" placeholder="Добавьте таблицу"><br>
+                                <input type="button" value="Отправить" onclick="transferData1()">
+                                <p>Вы добавили таблицу:</p>
+                            </div>
+                            <div class="table-info">
+                                <input type="text" required
+                                    placeholder="ЕСЛИ ДОБАВИЛИ ТЕКСТ В ТАБЛИЦУ, НАПИШИТЕ СЮДА СЛОВО ДА">
+                                <input type="text" id="nameInput2" name="nameInput2"
+                                    placeholder="Добавьте текст в таблицу"><br>
+                                <input type="button" value="Отправить" onclick="transferData2()">
+                                <p>Вы добавили текст в таблицу:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="">
+
+                        <form>
+                            <span id="nameOutput"></span>
+                        </form>
+                    </form>
+                </form>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
